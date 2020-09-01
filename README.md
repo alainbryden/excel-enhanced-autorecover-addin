@@ -1,5 +1,24 @@
-# Excel Enhanced Auto-recover Add-in
-Manually manages auto-back-up and recovery of Excel documents being edited (because Excel AutoRecover is unreliable)
+# Enhanced AutoRecover Add-in for Excel
+Automatic back-up of open Excel workbooks.
+
+# What's the problem?
+Excel crashed. This happens from time to time - after all, it's an impressive chunk of software with vast capabilities, constantly being pushed to its limits by "innovative" end-users, often run on under-powered hardware. I don't fault Excel for crashing, that's what auto-recover is for. Thank goodness for auto-recover, right?
+
+So you launch Excel back up again, but wait...
+The "Document Recovery" pane shows only "Your Valuable Work.xlsx [Original]" "Version created last time the user saved the file", but you've been making changes for hours!
+
+Just kidding, that never happens! Really, it shows "Your Valuable Work.xlsx [Autosaved]" "Version created from the last Autosave", phew.
+So you open up that Auto-saved version, but wait...
+A wild pop-up appears: "We found a problem with some content in 'Your Valuable Work.xlsx'. Do you want us to try and recover as much as we can?" This is probably your own fault for killing Excel in Task Manager before it had a chance to finish what you told it to do.
+How robust of you Excel, why \[Yes\], please do recover my data... 
+
+"The file is corrupt and cannot be opened." Well, you did your best Excel, and surely there's a limit to how many back-to-back modal dialogs you're allowed to display in a row, so let's go see what online help is available. Hmm, if these problems keep happening to you, clearly the solution is to repair Excel, okay maybe uninstall then re-install Microsoft Office from scratch, okay next wipe your PC and reinstall Windows entirely.
+
+Just kidding, Excel and its built-in auto-recover never fails.
+But perhaps you just made some big changes, saved your file, and then realized that you've made an awful mistake and need to revert your changes. Silly human. But don't worry "Undo" to the rescue... wait, what do you mean "Can't Undo". Why does refreshing pivot tables or running a macro wipe out my undo history? (Because computers are hard).
+This solution might help you out in that scenario as well.
+
+Whatever, this whole idea is superfluous now that Excel has added the bold new "Auto-Save" toggle at the top-left of Excel. Wait... what do you mean this feature is only for people who have their files synchronized to OneDrive™?
 
 # Current Features
 - Sets up a timer to auto-save each workbook every 5 minutes.
